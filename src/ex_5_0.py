@@ -1,8 +1,7 @@
-"""ex_5_0.py"""
-
-
 def line_count(infile):
-    pass
+    with open(infile, "r") as f:
+        print(len(f.readlines()))
+        
 
 
 if __name__ == "__main__":
